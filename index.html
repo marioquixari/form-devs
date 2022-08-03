@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de DEVs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title"><h1>Cadastro de DEVs</h1></div>
+        <div><p>Complete suas informações</p></div>
+    </div>
+    <form action="#">
+        <div class="container-1">
+            <div class="nome-email">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+                <div class="email">
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>  
+            </div>
+            <div class="sobrenome">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" required> 
+            </div>
+        </div>
+        <div class="side">
+            <div class="paragraph">
+                <p>De qual lado da aplicação você desenvolve?</p>
+            </div>
+            <div class="radio">
+                <div class="frontend">
+                    <input type="radio" name="tech" id="frontend">
+                    <label for="frontend">Front-End</label>
+                </div>
+                <div class="backend">
+                    <input type="radio" name="tech" id="backend">
+                    <label for="backend">Back-End</label>
+                </div>
+                <div class="fullstack">
+                    <input type="radio" name="tech" id="fullstack">
+                    <label for="fullstack">Fullstack</label>
+            </div>
+            </div> 
+        </div>  
+            
+        <div class="tech">
+            <div class="paragraph">
+                <p>Selecione as tecnologias que domina</p>
+            </div>
+            <div class="checkbox-container">
+                <div class="html">
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div class="css">
+                    <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div class="javascript">
+                    <input type="checkbox" name="javascript" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+                <div class="php">
+                    <input type="checkbox" name="php" id="php">
+                    <label for="php">PHP</label>
+                </div>
+                <div class="c#">
+                    <input type="checkbox" name="c#" id="c#">
+                    <label for="c#">C#</label>
+                </div>
+                <div class="python">
+                    <input type="checkbox" name="python" id="python">
+            </div>
+                <label for="python">Pyton</label>
+            </div>
+        </div>
+        <div class="about">
+            <div class="paragraph">
+                <p>Conte um pouco mais da sua experiência:</p>
+            </div>
+            <div>
+                <textarea name="about" id="about" cols="50" rows="8"></textarea>
+            </div>
+        </div>
+        <div class="botao">
+            <button type="submit">Concluído</button>
+        </div>
+        
+    </form>
+
+</body>
+</html>

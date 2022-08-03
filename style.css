@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' , sans-serif;
+}
+
+body{
+    background-color: #b3cdd869;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #380B61;
+    font-weight: 500;
+}
+.header{
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.header h1{  
+    color: #380B61;
+    
+    font-weight:400;
+    margin-top: 0.8rem;
+
+}
+
+.header p {
+    color: #380B61;
+    font-weight: 300;
+}
+
+
+
+.container-1 input{
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1.5px solid #380B61;
+    
+}
+
+.container-1 input:hover{
+    background-color: rgba(204, 204, 204, 0.288);
+}
+
+
+form input:focus-visible{
+    outline: 1px solid #380B61;;
+}
+.container-1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 27px;
+}
+
+.container-1 label, .paragraph{
+    font-weight: 600;
+    font-size: 1.08em;
+
+}
+
+.side{
+    margin: 13px 0;
+}
+
+.checkbox-container{
+    display: flex;
+    margin: 10px 0;
+}
+
+
+button{
+    display: block;
+    margin: auto;
+    padding: 8px 15px;
+    color: white;
+    background-color: #380B61;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 25px;
+    border: none;
+    font-weight: 600;
+
+}
+
+button:hover{
+    background-color: #602994;
+    cursor: pointer;
+}
+
+
+    
